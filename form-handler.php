@@ -7,10 +7,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     require 'class.phpmailer.php';
-    $thm = 'Вам отправлено сообщение с сайта englishtolondon.ru - ';
+    $thm = 'Вам отправлено сообщение с сайта selmax - ';
     $msg =  "<strong>Имя:</strong> $name <br/>";
     if(isset($phone)){$msg .= "<strong>Телефон:</strong> $phone <br/>";}
-    if(isset($email)){$msg .= "<strong>Сообщение:</strong> $message <br/>";}
+    if(isset($message)){$msg .= "<strong>Сообщение:</strong> $message <br/>";}
 
 
     $mail = new PHPMailer();

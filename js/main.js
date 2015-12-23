@@ -104,27 +104,27 @@ $('.btn.rus').click(function(){
 
 $(document).ready(function() {
 
-    $('.btn-submit').click(function() {
+    $('.btn-send').click(function() {
 
-        $('body').find('form:not(this)').children('label').removeClass('red'); //удаление всех сообщение об ошибке(валидатора)
-        var answer = checkForm($(this).parent().get(0)); //ответ от валидатора
+        $('body').find('form:not(this)').children('div').removeClass('red'); //СѓРґР°Р»РµРЅРёРµ РІСЃРµС… СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ(РІР°Р»РёРґР°С‚РѕСЂР°)
+        var answer = checkForm($(this).closest('form').get(0)); //РѕС‚РІРµС‚ РѕС‚ РІР°Р»РёРґР°С‚РѕСЂР°
         if(answer != false)
         {
-            var $form   = $(this).parent(),
+            var $form = $(this).closest('form'),
                 name    =    $('input[name="name"]', $form).val(),
-                phone   =    $('input[name="phone"]', $form).val();
+                phone   =    $('input[name="phone"]', $form).val(),
                 message =    $('textarea[name="message"]', $form).val();
-            console.log(name, phone,message);
+            console.log(name, phone, message);
             $.ajax({
                 type: "POST",
                 url: "form-handler.php",
                 data: {name: name, phone: phone, message: message}
             }).done(function(msg) {
-                console.log(name, phone);
+                console.log(name, phone, message);
                 $('form').find('input[type=text], textarea').val('');
-                console.log('удачно');
+                console.log('СѓРґР°С‡РЅРѕ');
                 $.fancybox(
-                    '<div class="modal-box">'+ '<span class="modal-box-title">Спасибо, Ваша заявка принята!</span><br/>В скором времени с вами свяжутся наши менеджеры' +'</div>',
+                    '<div class="done">'+ '<span class="done-title">РЎРїР°СЃРёР±Рѕ, Р’Р°С€Р° Р·Р°СЏРІРєР° РїСЂРёРЅСЏС‚Р°!</span><br/>Р’ СЃРєРѕСЂРѕРј РІСЂРµРјРµРЅРё СЃ РІР°РјРё СЃРІСЏР¶СѓС‚СЃСЏ РЅР°С€Рё РјРµРЅРµРґР¶РµСЂС‹' +'</div>',
                     {
                         'autoDimensions'  : false,
                         'padding': 0,
