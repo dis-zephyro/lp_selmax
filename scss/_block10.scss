@@ -49,5 +49,10 @@
 
 	@media (min-width: $screen-md-min) {
 
+		ul {
+			li {
+				font-size: 15px;
+			}
+		}
 	}
 }

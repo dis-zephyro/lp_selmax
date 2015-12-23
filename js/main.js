@@ -76,7 +76,7 @@ function init(){
         hintContent: ''
     }, {
         iconLayout: 'default#image',
-        iconImageHref: 'assets/template/img/placemark.png',
+        iconImageHref: 'img/placemark.png',
         iconImageSize: [36, 52],
         iconImageOffset: [-18, -52]
     });
