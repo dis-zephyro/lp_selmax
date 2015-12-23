@@ -1,0 +1,78 @@
+.b11 {
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+	background: #4bb304;
+
+	h2 {
+		margin-bottom: 10px;
+	}
+
+	.text {
+		font-size: 12px;
+
+		a {
+			color: #fff;
+			font-weight: 700;
+			text-decoration: none;
+		}
+	}
+
+	@media (min-width: $screen-sm-min) {
+		padding: 20px 0;
+		text-align: left;
+		background: url("../img/b11_bg.jpg") 50% 0 no-repeat;
+
+		.container {
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+
+		h2 {
+			font-size: 20px;
+			line-height: 24px;
+			margin-bottom: 10px;
+			text-align: left;
+		}
+
+		.text {
+			font-size: 12px;
+		}
+
+		.btn {
+			float: right;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-width: $screen-md-min) {
+		padding: 20px 0;
+		height: 95px;
+
+		.container {
+			padding-left: 60px;
+			padding-right: 60px;
+		}
+
+		.text {
+			font-size: 12px;
+		}
+
+		h2 {
+			font-size: 28px;
+			line-height: 30px;
+			margin-bottom: 10px;
+
+		}
+
+		.text {
+			font-size: 15px;
+			line-height: 20px;
+
+			span {
+				font-size: 18px;
+			}
+		}
+
+	}
+}

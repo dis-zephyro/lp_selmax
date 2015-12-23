@@ -1,0 +1,40 @@
+.modal-box {
+	width: 240px;
+	background: #fff;
+	padding: 15px 20px;
+
+	.modal-box-title {
+		font-size: 16px;
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+	}
+
+
+
+	@media (min-width: $screen-sm-min) {
+
+		width: 400px;
+		padding: 20px 30px;
+
+		.modal-box-title {
+			font-size: 24px;
+		}
+	}
+}
+
+
+.done {
+	color: #000;
+	font-size: 16px;
+	text-align: center;
+	padding: 100px 20px;
+
+	.done-title {
+		color: #3b8575;
+		display: block;
+		font-size: 30px;
+		margin-bottom: 40px;
+	}
+}

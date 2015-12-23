@@ -1,0 +1,53 @@
+.b10 {
+	padding-top: 15px;
+	background: #fbfbfb;
+
+	h2 {
+
+	}
+
+	ul {
+		padding-bottom: 15px;
+
+		li {
+			font-size: 12px;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+	}
+
+	#map {
+		height: 200px;
+	}
+
+
+	@media (min-width: $screen-sm-min) {
+
+		ul {
+			padding-bottom: 20px;
+
+
+			li {
+				font-size: 13px;
+				margin-bottom: 0;
+
+				&:first-child {
+					float: left;
+				}
+
+				&:last-child {
+					float: right;
+					text-align: right;
+				}
+			}
+		}
+
+		#map {
+			height: 400px;
+		}
+	}
+
+	@media (min-width: $screen-md-min) {
+
+	}
+}

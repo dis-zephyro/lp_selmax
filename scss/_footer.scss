@@ -1,0 +1,42 @@
+.footer {
+	font-size: 11px;
+	padding: 10px 0;
+	background: #fff;
+
+	.copy {
+
+	}
+
+	.mail {
+		text-align: right;
+
+		a {
+			color: $color-green;
+		}
+	}
+
+	.dev {
+		text-align: center;
+		padding-top: 10px;
+
+		a {
+			color: $color-red;
+		}
+	}
+
+
+	@media (min-width: $screen-sm-min) {
+
+		padding: 15px 0;
+		font-size: 15px;
+
+		.mail {
+			text-align: center;
+		}
+
+		.dev {
+			padding-top: 0;
+			text-align: right;
+		}
+	}
+}

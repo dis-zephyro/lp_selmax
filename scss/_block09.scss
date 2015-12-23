@@ -1,0 +1,58 @@
+.b09 {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	background: url("../img/b09_bg.jpg") 50% 0 no-repeat;
+	background-size: cover;
+
+	.review {
+		padding: 0 30px;
+		margin-bottom: 15px;
+	}
+
+	.review-author {
+		font-size: 12px;
+		margin-bottom: 5px;
+
+		span {
+			font-weight: 700;
+		}
+	}
+
+
+	@media (min-width: $screen-sm-min) {
+		padding-top: 50px;
+		padding-bottom: 45px;
+
+		.review {
+			padding: 0 25px;
+			margin-bottom: 25px;
+		}
+
+		.review-author {
+			margin-bottom: 10px;
+		}
+	}
+
+	@media (min-width: $screen-md-min) {
+		height: 873px;
+		padding-top: 75px;
+		background-size: auto;
+
+		.h2 {
+			margin-bottom: 50px;
+		}
+
+		.review {
+			padding: 0 20px;
+			margin-bottom: 35px;
+		}
+
+		.review-author {
+			font-size: 15px;
+
+			span {
+
+			}
+		}
+	}
+}

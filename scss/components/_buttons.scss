@@ -4,7 +4,7 @@
 	border: none;
 	outline: none;
 	cursor: pointer;
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: 300;
 	line-height: 20px;
 	text-align: center;
@@ -102,3 +102,49 @@
 	}
 }
 
+.btn-scheme {
+	margin:0;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 11px;
+	font-weight: 300;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+	padding: 5px 20px;
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: middle;
+	background-image: none;
+	touch-action: manipulation;
+	@include transition(.2s);
+	border-top: 1px solid #f1a0a6;
+	border-bottom: 3px solid #580000;
+	@include gradient-vertical(#e34451, #b10019);
+
+	&:hover {
+		color: #fff;
+		text-decoration: none;
+		@include gradient-vertical(#ce001d, #f35c69);
+	}
+
+	&:active {
+		top: 1px;
+	}
+
+
+	@media (min-width: $screen-sm-min) {
+
+		font-size: 12px;
+		padding: 10px 20px;
+	}
+
+	@media (min-width: $screen-md-min) {
+
+		font-size: 16px;
+		padding: 14px 35px;
+
+	}
+}
