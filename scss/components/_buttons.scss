@@ -1,0 +1,104 @@
+.btn {
+	margin:0;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+	padding: 5px 20px;
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: middle;
+	background-image: none;
+	touch-action: manipulation;
+	@include transition(.2s);
+
+	&:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	&:active {
+		top: 1px;
+	}
+
+
+	@media (min-width: $screen-sm-min) {
+
+		font-size: 14px;
+		padding: 10px 38px;
+	}
+
+	@media (min-width: $screen-md-min) {
+
+		font-size: 18px;
+		padding: 10px 70px;
+
+	}
+}
+
+.btn-red {
+	border-top: 1px solid #f1a0a6;
+	border-bottom: 3px solid #580000;
+	@include gradient-vertical(#e34451, #b10019);
+
+	&:hover {
+		@include gradient-vertical(#ce001d, #f35c69);
+	}
+
+	@media (min-width: $screen-md-min) {
+
+			padding: 25px 70px;
+	}
+}
+
+.btn-green {
+	border-top: 1px solid #d0f8b6;
+	border-bottom: 3px solid #317900;
+	text-shadow: 0px 1px 0px rgba(86, 86, 86, 0.3);
+
+	@include gradient-vertical(#93ee56, #4db604);
+
+	&:hover {
+		@include gradient-vertical(#b2ff7d, #6ee919);
+	}
+}
+
+.btn-form {
+	margin:0;
+	width: 100%;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+	padding: 8px 10px;
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: middle;
+	background-image: none;
+	touch-action: manipulation;
+	@include transition(.2s);
+	border-top: 1px solid #f1a0a6;
+	border-bottom: 3px solid #580000;
+	@include gradient-vertical(#e34451, #b10019);
+
+	&:hover {
+		color: #fff;
+		text-decoration: none;
+		@include gradient-vertical(#ce001d, #f35c69);
+	}
+
+	&:active {
+		top: 1px;
+	}
+}
+

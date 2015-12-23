@@ -1,0 +1,36 @@
+.b06 {
+	font-size: 12px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	background: url("../img/b06_bg.jpg") 50% 0 no-repeat;
+	background-size: cover;
+
+	.b06-image {
+		padding-top: 15px;
+		margin-bottom: 20px;
+	}
+
+	@media (min-width: $screen-sm-min) {
+		padding-top: 50px;
+		padding-bottom: 100px;
+
+		.b06-image {
+			padding-top: 20px;
+			margin-bottom: 40px;
+		}
+	}
+
+	@media (min-width: $screen-md-min) {
+
+		font-size: 15px;
+		padding-top: 80px;
+		padding-bottom: 100px;
+		background-size: auto;
+
+		.b06-image {
+			width: 860px;
+			padding-top: 20px;
+			margin: 0 auto 50px auto;
+		}
+	}
+}

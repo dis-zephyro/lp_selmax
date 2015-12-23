@@ -1,0 +1,162 @@
+.b01 {
+	background: url("../img/b01_bg.jpg") 50% 0 no-repeat;
+	background-size: cover;
+
+	.b01-top {
+		padding-top: 15px;
+		margin-bottom: 30px;
+	}
+
+	.logo {
+		float: left;
+		width: 100px;
+	}
+
+	.contact {
+		float: right;
+		text-align: right;
+	}
+
+	.contact-phone {
+		color: #000;
+		font-size: 23px;
+		line-height: 30px;
+		text-decoration: none;
+		display: inline-block;
+
+		span {
+			font-size: 18px;
+		}
+	}
+
+	h1 {
+		color: #fff;
+		padding: 5px 0;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 20px;
+		text-align: center;
+		margin-bottom: 10px;
+		background: $color-green;
+		text-transform: uppercase;
+		text-shadow: 0px 1px 0px rgba(77, 77, 77, 0.75);
+	}
+
+	.text {
+		color: #fff;
+		font-size: 14px;
+		line-height: 20px;
+		text-align: center;
+		margin-bottom: 40px;
+		text-transform: uppercase;
+	}
+
+	.text-box-image {
+		width: 50px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.text-box {
+		padding: 10px;
+		color: #231f20;
+		font-size: 12px;
+		background: #fff;
+		line-height: 16px;
+		text-align: center;
+		position: relative;
+		margin: 0 auto 50px auto;
+		@include border-radius(12px);
+		@include box-shadow(0px 7px 20px 0px rgba(141, 141, 141, 0.5));
+
+	}
+
+	.text-box-2 {
+		padding: 10px;
+		color: #231f20;
+		font-size: 12px;
+		line-height: 16px;
+		background: #fff;
+		text-align: center;
+		position: relative;
+		margin: 0 auto 40px auto;
+		@include box-shadow(0px 7px 20px 0px rgba(141, 141, 141, 0.5));
+	}
+
+	@media (min-width: $screen-sm-min) {
+
+		.b01-top {
+			margin-bottom: 55px;
+		}
+
+		.logo {
+			width: 196px;
+			padding-top: 20px;
+		}
+
+		h1 {
+			padding: 15px 0;
+			font-size: 34px;
+			line-height: 40px;
+			margin-bottom: 20px;
+		}
+
+		.text {
+			font-size: 16px;
+			margin-bottom: 120px;
+		}
+
+		.text-box-image {
+			width: 110px;
+		}
+
+
+		.text-box {
+			width: 540px;
+			font-size: 16px;
+			line-height: 20px;
+			padding: 20px 40px;
+			margin-bottom: 70px;
+			@include border-radius(24px);
+		}
+
+		.text-box-2 {
+			width: 600px;
+			font-size: 16px;
+			line-height: 20px;
+			padding: 20px 15px;
+		}
+	}
+
+	@media (min-width: $screen-md-min) {
+		background-size: auto;
+
+		.b01_inner {
+			height: 954px;
+			background: url("../img/b01_bg2.png") 50% 100% no-repeat;
+		}
+
+		h1 {
+			padding: 25px 0;
+			font-size: 48px;
+			line-height: 60px;
+			margin-left: 40px;
+			margin-right: 40px;
+		}
+
+		.text-box-image {
+
+		}
+
+		.text-box-2 {
+			width: 820px;
+			padding: 25px 50px;
+		}
+
+		.btn {
+			font-size: 14px;
+			padding: 10px 38px;
+		}
+	}
+
+}

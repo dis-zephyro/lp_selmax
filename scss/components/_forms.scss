@@ -1,0 +1,43 @@
+.form-control {
+	margin: 0;
+	width: 100%;
+	padding: 10px;
+	outline: none;
+	color: #5f5f5f;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: center;
+	background: #f6f6f6;
+	display: inline-block;
+	border: 1px solid #f6f6f6;
+	@include placeholder(#5f5f5f);
+
+	&::-ms-clear {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+}
+
+.red {
+
+	.form-control {
+		border-color: #ff0000;
+
+		&.invert {
+			border-color: #ff0000;
+		}
+	}
+}
+
+
+
+label {
+	font-weight: 400;
+	display: block;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}

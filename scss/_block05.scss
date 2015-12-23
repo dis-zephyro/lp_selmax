@@ -1,0 +1,293 @@
+.b05 {
+	padding-top: 35px;
+	padding-bottom: 30px;
+
+	.features {
+		position: relative;
+		margin-bottom: 20px;
+
+		.features-image {
+			display: none;
+		}
+
+		ul {
+			margin-left: 65px;
+			position: relative;
+		}
+
+		li {
+			font-size: 11px;
+			line-height: 13px;
+			position: relative;
+			padding-bottom: 5px;
+
+			&:before {
+				top: 0;
+				left: -15px;
+				width: 7px;
+				height: 7px;
+				content: ' ';
+				position: absolute;
+				background: #ff911a;
+				@include border-radius(50%);
+			}
+
+			&:after {
+				top: 0;
+				left: -12px;
+				width: 1px;
+				height: 100%;
+				content: ' ';
+				position: absolute;
+				background: #ff911a;
+			}
+
+			&:last-child {
+
+				&:after {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.brand-title {
+		font-size: 12px;
+		font-weight: 700;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.brand {
+		margin: 0 -5px;
+
+		li {
+			width: 50%;
+			float: left;
+			padding: 0 5px;
+			margin-bottom: 15px;
+		}
+	}
+
+
+	@media (min-width: $screen-sm-min) {
+
+		padding-top: 40px;
+		padding-bottom: 60px;
+
+
+		.features {
+
+			.features-image {
+				top: 0;
+				left: 50%;
+				width: 300px;
+				display: block;
+				position: absolute;
+				margin-left: -150px;
+			}
+
+			ul {
+				height: 250px;
+				margin-left: 0;
+			}
+
+			li {
+				width: 200px;
+				position: absolute;
+
+				&:before {
+					display: none;
+				}
+
+				&:after {
+					display: none;
+				}
+
+				&.item1 {
+					top:  20px;
+					right: 486px;
+					text-align: right;
+					padding-right: 20px;
+				}
+
+				&.item2 {
+					top: 70px;
+					right: 502px;
+					text-align: right;
+					padding-right: 20px;
+				}
+
+				&.item3 {
+					top: 120px;
+					right: 502px;
+					text-align: right;
+					padding-right: 20px;
+				}
+
+				&.item4 {
+					top: 165px;
+					right: 485px;
+					text-align: right;
+					padding-right: 20px;
+				}
+
+
+				&.item5 {
+					top: 177px;
+					left: 260px;
+					padding-top: 15px;
+					text-align: center;
+					padding-right: 0;
+				}
+
+				&.item6 {
+					top: 20px;
+					left: 480px;
+					text-align: left;
+					padding-left: 20px;
+				}
+
+				&.item7 {
+					top: 70px;
+					left: 500px;
+					text-align: left;
+					padding-left: 20px;
+				}
+
+				&.item8 {
+					top: 120px;
+					left: 500px;
+					text-align: left;
+					padding-left: 20px;
+				}
+
+				&.item9 {
+					top: 165px;
+					left: 480px;
+					text-align: left;
+					padding-left: 20px;
+				}
+			}
+		}
+
+		.brand-title {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+
+		.brand {
+			margin: 0 -10px;
+
+			li {
+				width: 25%;
+				float: left;
+				padding: 0 10px;
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	@media (min-width: $screen-md-min) {
+
+		h2 {
+			margin-bottom: 40px;
+		}
+
+		.features {
+
+			.features-image {
+				top: 0;
+				left: 50%;
+				width: 420px;
+				display: block;
+				position: absolute;
+				margin-left: -210px;
+			}
+
+			ul {
+				height: 350px;
+				margin-left: 0;
+			}
+
+			li {
+				width: 250px;
+				font-size: 14px;
+				line-height: 18px;
+
+
+				&.item1 {
+					top:  30px;
+					right: 660px;
+					text-align: right;
+					padding-right: 20px;
+				}
+
+				&.item2 {
+					top: 100px;
+					right: 680px;
+					text-align: right;
+					padding-right: 20px;
+				}
+
+				&.item3 {
+					top: 160px;
+					right: 680px;
+					text-align: right;
+					padding-right: 20px;
+				}
+
+				&.item4 {
+					top: 230px;
+					right: 660px;
+					text-align: right;
+					padding-right: 20px;
+				}
+
+
+				&.item5 {
+					top: 245px;
+					left: 350px;
+					padding-top: 15px;
+					text-align: center;
+					padding-right: 0;
+				}
+
+				&.item6 {
+					top: 30px;
+					left: 660px;
+					text-align: left;
+					padding-left: 20px;
+				}
+
+				&.item7 {
+					top: 100px;
+					left: 680px;
+					text-align: left;
+					padding-left: 20px;
+				}
+
+				&.item8 {
+					top: 160px;
+					left: 680px;
+					text-align: left;
+					padding-left: 20px;
+				}
+
+				&.item9 {
+					top: 230px;
+					left: 660px;
+					text-align: left;
+					padding-left: 20px;
+				}
+			}
+		}
+
+		.brand-title {
+			font-size: 24px;
+			margin-bottom: 30px;
+		}
+
+
+	}
+}
