@@ -61,6 +61,14 @@
 
 				.thumb {
 					cursor: pointer;
+					background: #222222;
+
+					&:hover {
+
+						img {
+							opacity: .5;
+						}
+					}
 				}
 			}
 		}

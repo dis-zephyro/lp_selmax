@@ -1,0 +1,15 @@
+.b02 li {
+	opacity: 0;
+}
+
+.b02 li:first-child.animated {
+	-webkit-animation: fadeInLeft 1s .2s forwards;
+	animation: fadeInLeft 1s .2s forwards;
+
+}
+
+.b02 li:last-child.animated {
+	-webkit-animation: fadeInRight 1s .4s forwards;
+	animation: fadeInRight  1s.4s forwards;
+
+}
