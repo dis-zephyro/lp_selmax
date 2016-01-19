@@ -2364,8 +2364,8 @@ h3 {
       margin-bottom: 30px; } }
   @media (min-width: 1024px) {
     h3 {
-      font-size: 25px;
-      line-height: 30px; } }
+      font-size: 30px;
+      line-height: 40px; } }
 
 p {
   padding: 0;
@@ -3094,9 +3094,6 @@ ul {
     background-image: linear-gradient(to bottom, #ce001d 0%, #f35c69 100%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFCE001D', endColorstr='#FFF35C69', GradientType=0); }
-  @media (min-width: 1024px) {
-    .btn-red {
-      padding: 25px 70px; } }
 
 .btn-green {
   border-top: 1px solid #d0f8b6;
@@ -3113,6 +3110,10 @@ ul {
     background-image: linear-gradient(to bottom, #b2ff7d 0%, #6ee919 100%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFB2FF7D', endColorstr='#FF6EE919', GradientType=0); }
+
+@media (min-width: 1024px) {
+  .btn-xl {
+    padding: 25px 70px; } }
 
 .btn-form {
   margin: 0;
@@ -3810,6 +3811,45 @@ label {
         font-size: 14px;
         padding: 10px 38px; } }
 
+.wheel {
+  z-index: 100;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 5000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 5000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 5000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotateY(0deg); }
+  to {
+    -ms-transform: rotateY(360deg); } }
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotateY(0deg); }
+  to {
+    -moz-transform: rotateY(360deg); } }
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotateY(0deg); }
+  to {
+    -webkit-transform: rotateY(360deg); } }
+@keyframes spin {
+  from {
+    transform: rotateY(0deg); }
+  to {
+    transform: rotateY(360deg); } }
 .b02 {
   color: #231f20;
   background: #fff;
@@ -3955,7 +3995,7 @@ label {
         font-size: 11px; }
     .b03 .product .btn {
       margin-top: 20px; }
-  .b03 .btn-red {
+  .b03 .btn-xl {
     margin-bottom: 30px; }
   .b03 .product-hide {
     display: none; }
@@ -3988,7 +4028,7 @@ label {
           font-size: 11px; }
       .b03 .product .btn {
         margin-top: 30px; }
-    .b03 .btn-red {
+    .b03 .btn-xl {
       margin-bottom: 40px; } }
   @media (min-width: 1024px) {
     .b03 .b03-top {
@@ -3998,8 +4038,8 @@ label {
         margin-bottom: 20px; }
       .b03 .b03-top .text-box {
         height: 54px;
-        width: 500px;
-        font-size: 16px;
+        width: 700px;
+        font-size: 20px;
         line-height: 34px;
         -webkit-border-radius: 27px;
         -moz-border-radius: 27px;
@@ -4020,14 +4060,16 @@ label {
       .b03 .product .product-gallery {
         margin-bottom: 0; }
       .b03 .product .product-text {
-        font-size: 14px;
-        line-height: 18px; }
+        font-size: 16px;
+        line-height: 20px; }
+        .b03 .product .product-text li {
+          margin-bottom: 8px; }
         .b03 .product .product-text .product-title {
           font-size: 26px;
           line-height: 30px; }
         .b03 .product .product-text h4 {
           font-size: 15px; }
-    .b03 .btn-red {
+    .b03 .btn-xl {
       margin-bottom: 70px; } }
 
 .b04 {
@@ -4036,7 +4078,7 @@ label {
   background: url("../img/b04_bg.jpg") 50% 0 no-repeat;
   background-size: cover; }
   .b04 h2 span {
-    background: #fff;
+    background: transparent;
     padding: 2px 5px;
     display: inline-block; }
   .b04 .form-block {
@@ -4059,7 +4101,7 @@ label {
       .b04 h2 {
         margin-bottom: 100px; }
         .b04 h2 span {
-          background: #fff;
+          background: transparent;
           padding: 2px 5px;
           display: inline-block; }
       .b04 .form-block {
@@ -4078,7 +4120,7 @@ label {
       .b04 h2 {
         margin-bottom: 140px; }
         .b04 h2 span {
-          background: #fff;
+          background: transparent;
           padding: 2px 5px;
           display: inline-block; }
       .b04 .form-block {

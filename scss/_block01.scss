@@ -55,6 +55,10 @@
 		width: 50px;
 		margin: 0 auto;
 		position: relative;
+
+		&:hover {
+
+		}
 	}
 
 	.text-box {
@@ -160,4 +164,46 @@
 		}
 	}
 
+}
+
+
+
+.wheel {
+	z-index: 100;
+	-webkit-animation-name: spin;
+	-webkit-animation-duration: 5000ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: spin;
+	-moz-animation-duration: 5000ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: spin;
+	-ms-animation-duration: 5000ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	animation-name: spin;
+	animation-duration: 5000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+	from { -ms-transform: rotateY(0deg); }
+	to { -ms-transform: rotateY(360deg); }
+}
+@-moz-keyframes spin {
+	from { -moz-transform: rotateY(0deg); }
+	to { -moz-transform: rotateY(360deg); }
+}
+@-webkit-keyframes spin {
+	from { -webkit-transform: rotateY(0deg); }
+	to { -webkit-transform: rotateY(360deg); }
+}
+@keyframes spin {
+	from {
+		transform:rotateY(0deg);
+	}
+	to {
+		transform:rotateY(360deg);
+	}
 }

@@ -50,10 +50,9 @@
 		@include gradient-vertical(#ce001d, #f35c69);
 	}
 
-	@media (min-width: $screen-md-min) {
 
-			padding: 25px 70px;
-	}
+
+
 }
 
 .btn-green {
@@ -65,6 +64,14 @@
 
 	&:hover {
 		@include gradient-vertical(#b2ff7d, #6ee919);
+	}
+}
+
+.btn-xl {
+
+	@media (min-width: $screen-md-min) {
+
+		padding: 25px 70px;
 	}
 }
 
