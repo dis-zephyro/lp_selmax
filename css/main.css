@@ -3942,19 +3942,40 @@ label {
       text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.75); }
     .b03 .b03-top .text-box-title {
       width: 40px;
-      margin: 0 auto; }
-    .b03 .b03-top .text-box {
-      height: 40px;
+      z-index: 300;
       margin: 0 auto;
+      position: relative; }
+    .b03 .b03-top .text-box {
+      z-index: 100;
+      height: 40px;
+      margin: -10px auto 0 auto;
       font-size: 11px;
       background: #fff;
       line-height: 20px;
       padding: 10px 10px;
       text-align: center;
+      position: relative;
       -webkit-border-radius: 20px;
       -moz-border-radius: 20px;
       -ms-border-radius: 20px;
       border-radius: 20px; }
+      .b03 .b03-top .text-box .text-box-inner {
+        z-index: 200;
+        position: relative; }
+      .b03 .b03-top .text-box:before {
+        top: -40px;
+        left: 50%;
+        width: 80px;
+        height: 80px;
+        z-index: -1;
+        content: ' ';
+        background: #fff;
+        margin-left: -40px;
+        position: absolute;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%; }
   .b03 .product-box {
     margin-bottom: 20px; }
   .b03 .product {
@@ -3993,6 +4014,23 @@ label {
       .b03 .product .product-text h4 {
         padding: 2px 0;
         font-size: 11px; }
+      .b03 .product .product-text li {
+        padding-left: 30px;
+        padding-bottom: 2px; }
+        .b03 .product .product-text li.item1 {
+          background: url("../img/3.png") 5px 50% no-repeat; }
+        .b03 .product .product-text li.item2 {
+          background: url("../img/4.png") 0 50% no-repeat; }
+        .b03 .product .product-text li.item3 {
+          background: url("../img/5.png") 0 50% no-repeat; }
+        .b03 .product .product-text li.item4 {
+          background: url("../img/6.png") 8px 50% no-repeat; }
+        .b03 .product .product-text li.item5 {
+          background: url("../img/7.png") 5px 50% no-repeat; }
+        .b03 .product .product-text li.item6 {
+          background: url("../img/8.png") 3px 50% no-repeat; }
+        .b03 .product .product-text li.item7 {
+          background: url("../img/9.png") 2px 50% no-repeat; }
     .b03 .product .btn {
       margin-top: 20px; }
   .b03 .btn-xl {

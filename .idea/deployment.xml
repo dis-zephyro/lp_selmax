@@ -121,13 +121,6 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="englishtolondon">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="factorymebel">
         <serverdata>
           <mappings>
@@ -156,6 +149,27 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="ftp.moscow-rem.ru">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ftp.moscow-rem.ru (1)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="gallery">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="ikra">
         <serverdata>
           <mappings>
@@ -178,6 +192,13 @@
         </serverdata>
       </paths>
       <paths name="livebiz">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="lp_ege">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -226,7 +247,21 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="pl_iphone">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="rep-iwatch">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="rfmobile_zephyro">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
