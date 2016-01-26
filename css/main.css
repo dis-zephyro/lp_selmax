@@ -4070,19 +4070,22 @@ label {
       margin-bottom: 40px; } }
   @media (min-width: 1024px) {
     .b03 .b03-top {
-      padding-top: 70px;
+      padding-top: 40px;
       padding-bottom: 50px; }
       .b03 .b03-top h2 {
         margin-bottom: 20px; }
       .b03 .b03-top .text-box {
-        height: 54px;
-        width: 700px;
-        font-size: 20px;
+        height: 60px;
+        width: 920px;
+        padding: 13px 10px;
+        font-size: 26px;
+        font-weight: 700;
         line-height: 34px;
-        -webkit-border-radius: 27px;
-        -moz-border-radius: 27px;
-        -ms-border-radius: 27px;
-        border-radius: 27px; }
+        text-transform: uppercase;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        border-radius: 30px; }
     .b03 .product-box {
       margin-bottom: 50px; }
       .b03 .product-box.product-box-one {

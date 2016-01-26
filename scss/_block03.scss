@@ -229,7 +229,7 @@
 	@media (min-width: $screen-md-min) {
 
 		.b03-top {
-			padding-top: 70px;
+			padding-top: 40px;
 			padding-bottom: 50px;
 
 			h2 {
@@ -238,12 +238,14 @@
 
 
 			.text-box {
-				height: 54px;
-				width: 700px;
-
-				font-size: 20px;
+				height: 60px;
+				width: 920px;
+				padding: 13px 10px;
+				font-size: 26px;
+				font-weight: 700;
 				line-height: 34px;
-				@include border-radius(27px);
+				text-transform: uppercase;
+				@include border-radius(30px);
 			}
 		}
 
