@@ -3,7 +3,6 @@
 
 	.b03-top {
 		padding-top: 25px;
-		margin-bottom: 40px;
 		padding-bottom: 30px;
 		@include gradient-vertical( #53cc02, #4ebd03);
 
@@ -230,7 +229,6 @@
 
 		.b03-top {
 			padding-top: 40px;
-			padding-bottom: 50px;
 
 			h2 {
 				margin-bottom: 20px;
@@ -298,3 +296,9 @@
 	}
 
 }
+
+#b032,
+#b031 {
+	padding-top: 50px;
+}
+
