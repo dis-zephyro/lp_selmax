@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="lp_selmax" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="Always" serverName="lp_selmax" promptOnLocalOverwrite="false" autoUploadExternalChanges="true">
     <serverData>
       <paths name="109.120.162.1">
         <serverdata>
@@ -66,6 +66,13 @@
         </serverdata>
       </paths>
       <paths name="architect">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="aroma-cosmetic">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -198,6 +205,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="lp_cosmetic">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="lp_ege">
         <serverdata>
           <mappings>
@@ -248,6 +262,13 @@
         </serverdata>
       </paths>
       <paths name="pl_iphone">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="remont">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
